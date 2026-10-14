@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Contacto - Tecnowil</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header>
+        <div class="marca">
+            <img src="../media/logo.jpg" alt="Logo Tecnowil">
+            <div>
+                <h1>Tecnowil</h1>
+                <p>Wilmer Materano - Reparación de PCs y notebooks</p>
+            </div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="servicios.html">Servicios</a></li>
+                <li><a class="activo" href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Pedí un presupuesto</h2>
+            <p>
+                Completá el formulario y te respondemos por WhatsApp o mail.
+                También podés pasar por el taller de lunes a viernes de 9 a 18
+                y sábados de 9 a 13.
+            </p>
+
+            <form action="#" method="post">
+                <label for="nombre">Nombre y apellido</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="email">Correo electrónico</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="telefono">Teléfono</label>
+                <input type="tel" id="telefono" name="telefono">
+
+                <label for="equipo">Tipo de equipo</label>
+                <input type="text" id="equipo" name="equipo" placeholder="PC de escritorio o notebook">
+
+                <label for="mensaje">¿Qué le pasa al equipo?</label>
+                <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+
+                <input type="submit" value="Enviar consulta">
+            </form>
+        </section>
+
+        <section>
+            <h3>Dónde estamos</h3>
+            <p>Av. Teniente Ibáñez 1445, CP 3400, Corrientes. Tel: 379 502-1351</p>
+            <iframe
+                src="https://maps.google.com/maps?q=Avenida%20Teniente%20Ibanez%201445%20Corrientes%203400&t=&z=16&ie=UTF8&iwloc=&output=embed"
+                title="Mapa de Av. Teniente Ibáñez 1445, Corrientes">
+            </iframe>
+            <p>
+                Más información de la zona en
+                <a href="https://www.google.com/maps" target="_blank">Google Maps</a>.
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Tecnowil - Wilmer Materano - Av. Teniente Ibáñez 1445, CP 3400, Corrientes</p>
+        <ul>
+            <li>Av. Teniente Ibáñez 1445, CP 3400, Corrientes</li>
+            <li>Tel: 379 502-1351</li>
+            <li>
+                <a href="https://maps.google.com/?q=Avenida+Teniente+Ibanez+1445+Corrientes+3400" target="_blank">Ver mapa</a>
+            </li>
+        </ul>
+    </footer>
+</body>
+</html>
