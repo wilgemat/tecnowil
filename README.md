@@ -26,9 +26,7 @@ tecnowil/
 ├── page/
 │   ├── servicios.html
 │   └── contacto.html
-├── media/
-│   └── (imágenes)
-└── images/
+└── media/
     └── (imágenes)
 ```
 
