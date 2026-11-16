@@ -1,4 +1,4 @@
-TSMK_LP1 - 1er Entrega del Proyecto Web (HTML)
+TSMK_LP1 - Entrega Final del Proyecto Web (HTML + CSS + Bootstrap)
 Sitio: Tecnowil - Reparación de PCs
 
 Integrantes del grupo:
